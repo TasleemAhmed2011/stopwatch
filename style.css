@@ -37,9 +37,12 @@ button {
     display: inline-block; /* Ensure buttons are inline */
     margin: 0 10px; /* Add horizontal spacing between buttons */
     position: relative;
+    margin-top:50px;
 }
 
-
+div{
+    text-align: center;
+}
 
 button:hover {
     background-color: #555;
