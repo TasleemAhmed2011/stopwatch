@@ -1,0 +1,46 @@
+p {
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    border: 7px #333 dashed;
+    border-radius: 100px;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto; /* Center the paragraph horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add gap between the buttons and the paragraph */
+    display: inline-block; /* Ensure buttons are inline */
+    margin: 0 10px; /* Add horizontal spacing between buttons */
+    position: relative;
+}
+
+
+
+button:hover {
+    background-color: #555;
+}
