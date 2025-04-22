@@ -32,6 +32,10 @@ window.onload = function() {
         if(msec<=9){
             appendmsec.innerHTML= "0"+ msec;
         }
+            if(msec> 9){
+                appendmsec.innerHTML= msec;
+        }
+
         if(msec > 99) {
             sec++;
             msec = 0;
@@ -52,8 +56,5 @@ window.onload = function() {
                 appendmin.innerHTML = min;
             }
         }
-        }
-        if(sec>9){
-            appendsec.innerHTML= sec;
         }
     }
